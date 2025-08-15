@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name — ML/Optimization</title>
+  <meta name="description" content="PhD researcher in ML/optimization. Second-order methods, loss landscapes, efficient/low-precision training.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <div class="name">Your Name</div>
+        <div class="tag">PhD — Machine Learning & Optimization</div>
+      </div>
+      <nav class="topnav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="wrap">
+        <div class="availability"><span class="badge">Available Feb–Aug 2026</span> 4–6 months • CH/DE/EU/UK/SG/HK • US via J‑1 (if offered)</div>
+        <div class="btns">
+          <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          <a class="btn" href="mailto:you@unibas.ch">Email</a>
+          <a class="btn" href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="btn" href="https://github.com/YOURUSER" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/YOURUSER/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About</h2>
+        <p>PhD researcher in machine learning/optimization (NeurIPS; AISTATS Oral). Second‑order methods, loss landscapes, and efficient/low‑precision training. I enjoy theory that ships as clean, reproducible code.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <ul class="twocol">
+          <li>Python (expert), PyTorch (expert)</li>
+          <li>C++ (working), CUDA (kernels)</li>
+          <li>Optimization: first/second‑order</li>
+          <li>Quantization / low‑precision training</li>
+          <li>Experiment design & analysis (3k+ runs)</li>
+          <li>Linux, HPC/SLURM, basic profiling</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="wrap">
+        <h2>Education</h2>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title"><strong>University of Basel</strong> — PhD, Machine Learning / Optimization</div>
+            <div class="item-meta">2022–present</div>
+          </div>
+          <div class="item-body">Advisor: Name. Topics: quasi‑Newton, second‑order methods, efficient training.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title"><strong>Technical University of Munich (TUM)</strong> — M.Sc. & B.Sc., Electrical Engineering</div>
+            <div class="item-meta">2015–2021</div>
+          </div>
+          <div class="item-body">Top 1%; GPA 1.1; focus on biomedical imaging & signal processing.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section alt">
+      <div class="wrap">
+        <h2>Selected Publications</h2>
+        <ol class="pubs">
+          <li><strong>Paper Title</strong>. <em>NeurIPS</em>, 2024. <a href="#">pdf</a> · <a href="#">code</a></li>
+          <li><strong>Paper Title</strong>. <em>AISTATS</em>, 2025 (Oral). <a href="#">pdf</a> · <a href="#">code</a></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Stochastic Rounding for Quantized Training</h3>
+            <div class="meta">C++/CUDA, PyTorch • 2025</div>
+            <p>Implemented stochastic‑rounding ops with tests and docs; opened PR to upstream repo. Includes a minimal public benchmark script.</p>
+            <p class="links"><a href="#">PR</a> · <a href="#">repo</a> · <a href="#">readme</a></p>
+          </article>
+          <article class="card">
+            <h3>Curvature‑Aware Subspace Methods</h3>
+            <div class="meta">Theory + PyTorch • 2024</div>
+            <p>Reference implementation accompanying our paper; logistic‑regression demos, scripts for reproducibility.</p>
+            <p class="links"><a href="#">repo</a> · <a href="#">paper</a></p>
+          </article>
+          <article class="card">
+            <h3>Loss‑Landscape Characterization</h3>
+            <div class="meta">Theory + experiments • 2023</div>
+            <p>Empirical probes and visualizations for conditioning/curvature; tidy configs and seeds.</p>
+            <p class="links"><a href="#">repo</a> · <a href="#">paper</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@unibas.ch">you@unibas.ch</a></p>
+        <p>For opportunities: please include role, team, location, and start window.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      © <span id="y"></span> Your Name — no cookies, no tracking.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
